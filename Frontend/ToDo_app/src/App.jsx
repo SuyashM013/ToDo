@@ -11,8 +11,8 @@ function App() {
   const [desc, setDesc] = useState('');
   const [editId, setEditId] = useState(null);
 
-  const uri = 'http://localhost:2900/api/tasks';
-  // const uri = 'https://to-do-app-tawny-phi.vercel.app/api/tasks';
+  // const uri = 'http://localhost:2900/api/tasks';
+  const uri = 'https://api-todo-pq6q.onrender.com/api/tasks';
 
 
   const fetchData = async () => {
