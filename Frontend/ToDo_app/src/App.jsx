@@ -25,6 +25,8 @@ function App() {
   };
 
   useEffect(() => {
+    fetch("https://api-todo-pq6q.onrender.com/")
+    .catch(err => console.log("Wakeup failed:", err));
     fetchData();
   }, []);
 
